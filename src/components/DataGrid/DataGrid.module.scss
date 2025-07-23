@@ -1,0 +1,14 @@
+.dataGrid {
+  // .dataGrid__header
+  &__header {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+}
